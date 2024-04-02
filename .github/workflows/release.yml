@@ -190,7 +190,7 @@ jobs:
           fi
 
       - name: Install universal-sierra-compiler
-        uses: tomek0123456789/setup-universal-sierra-compiler
+        uses: tomek0123456789/setup-universal-sierra-compiler@main
 
       - name: Smoke test
         shell: bash
