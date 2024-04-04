@@ -95,6 +95,7 @@ jobs:
         run: ./scripts/install_devnet.sh
       - uses: software-mansion/setup-scarb@v1.3.2
       - uses: software-mansion/setup-universal-sierra-compiler@v1
+      - run: echo $PATH
       - name: Run tests
         run: cargo test --release -p sncast
 
